@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="primary-header">
+      <div>
+        <img class="logo" width="30px" src="images1.jpeg" alt="logo" />
+      </div>
+
+      <button
+        class="mobile-nav-toggle"
+        aria-controls="primary-navigation"
+        aria-expanded="false"
+      >
+        <span class="sr-only"></span>
+      </button>
+
+      <nav>
+        <ul
+          id="primary-nav"
+          data-visible="false"
+          class="primary-navigation flex"
+        >
+          <li class="active li-style">
+            <a href=""><span aria-hidden="true">00</span>Home</a>
+          </li>
+          <li class="li-style">
+            <a href=""><span aria-hidden="true">01</span>Destination</a>
+          </li>
+          <li class="li-style">
+            <a href=""><span aria-hidden="true">02</span>Crew</a>
+          </li>
+          <li class="li-style">
+            <a href=""><span aria-hidden="true">03</span>Technology</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <script src="nav.js"></script>
+  </body>
+</html>
